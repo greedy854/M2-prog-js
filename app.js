@@ -1,15 +1,9 @@
-class App
-{
-    runApplication()
-    {
-        console.log("hello world")
-    }
+let newstitle = document.getElementById("newstitle");
+
+let randomgetal = Math.random();
+console.log(randomgetal);
+if (randomgetal < 0.5) {
+    newstitle.style.backgroundColor = "yellow";
+} else {
+    newstitle.style.backgroundColor = "green";
 }
-
-let app = new App();
-app.runApplication();
-
-let eenVariablenaam = waarde
-
-let waarde = new App
-app.runApplication(waarde);
